@@ -10,25 +10,32 @@
     box-sizing: border-box;
 }
 :root {
-    --fundo-principal: linear-gradient(to bottom, #8A2BE2, #1A237E);
+    --fundo-principal: #E093FA;
     --fonte-titulo: "pokemon", "sans-erif";
  
 }
 
 
 header {
-    background-image: var(--fundo-principal);
+    background-color: var(--fundo-principal);
 }
 
 .cabecalho__itens{
     display: flex;
     list-style: none;
+    justify-content: center;
+    align-items: center;
 
 }
 .cabecalho__ancora{
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .img__header {
-    width: 3rem;
+    width: 2rem;
 }
