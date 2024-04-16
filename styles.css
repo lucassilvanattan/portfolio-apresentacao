@@ -1,0 +1,34 @@
+@import url(reset.css);
+@font-face {
+    font-family: "pokemon";
+    src: url(fonts/Pokemon\ Hollow.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --fundo-principal: linear-gradient(to bottom, #8A2BE2, #1A237E);
+    --fonte-titulo: "pokemon", "sans-erif";
+ 
+}
+
+
+header {
+    background-image: var(--fundo-principal);
+}
+
+.cabecalho__itens{
+    display: flex;
+    list-style: none;
+
+}
+.cabecalho__ancora{
+    text-decoration: none;
+}
+
+.img__header {
+    width: 3rem;
+}
