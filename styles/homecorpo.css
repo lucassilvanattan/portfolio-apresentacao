@@ -1,0 +1,4 @@
+.container{
+    background-image: var(--fundo-corpo);
+    height: 100vh;
+}

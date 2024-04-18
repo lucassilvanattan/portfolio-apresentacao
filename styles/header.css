@@ -1,0 +1,33 @@
+header {
+    background-color: var(--fundo-principal);
+}
+
+.cabecalho__itens{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem 0.2rem 1rem;
+    
+}
+.cabecalho__ancora{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+    font-family: var(--fonte-text);
+    font-size: 0.8rem;
+    padding-bottom: 0.2rem;
+}
+
+.cabecalho__ancora:hover {
+    border-bottom:3px solid white;
+
+}
+
+.img__header {
+    width: 2rem;
+}

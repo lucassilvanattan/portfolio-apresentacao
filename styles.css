@@ -1,41 +1,32 @@
 @import url(reset.css);
+@import url(./styles/header.css);
+@import url(./styles/homecorpo.css);
 @font-face {
-    font-family: "pokemon";
-    src: url(fonts/Pokemon\ Hollow.ttf);
+    font-family: "pokemon solid";
+    src: url(./fonts/Pokemon\ Solid.ttf) format("TrueType");
+}
+
+
+@font-face {
+    font-family: "fire";
+    src: url(./fonts/Pokemon\ Classic.ttf);
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:  var(--fonte-titulo);
+    color: white;
+    
 }
 :root {
-    --fundo-principal: #E093FA;
-    --fonte-titulo: "pokemon", "sans-erif";
- 
+    --fundo-principal: #270033;
+    --fonte-titulo: "pokemon solid", "sans-serif";
+    --fonte-text: "fire", "sans-serif";
+    --fundo-corpo: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgba(27,13,48,1) 37%, rgba(92,19,174,1) 100%);
 }
 
-
-header {
-    background-color: var(--fundo-principal);
-}
-
-.cabecalho__itens{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-
-}
-.cabecalho__ancora{
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    margin: 0 3rem;
-    justify-content: center;
-    align-items: center;
-}
-
-.img__header {
-    width: 2rem;
+body{
+    min-height: 100vh;
 }
