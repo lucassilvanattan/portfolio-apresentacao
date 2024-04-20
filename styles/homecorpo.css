@@ -1,5 +1,5 @@
 .container{
-    padding: 8rem 5rem 5rem 5rem;
+    padding: 5rem 5rem 5rem 5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -28,6 +28,7 @@
 
 .cotainer__texto{
     font-family: var(--fonte-text);
-    margin-top: 5rem;
+    margin-top: 3rem;
     text-align: justify;
+    line-height: 1.5rem;
 }
