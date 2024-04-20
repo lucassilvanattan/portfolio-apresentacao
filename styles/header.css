@@ -1,6 +1,3 @@
-header {
-    background-color: var(--fundo-principal);
-}
 
 .cabecalho__itens{
     display: flex;

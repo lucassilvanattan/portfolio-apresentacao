@@ -1,4 +1,33 @@
 .container{
-    background-image: var(--fundo-corpo);
-    height: 100vh;
+    padding: 8rem 5rem 5rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* height: 100vh; */
+}
+
+.container__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    margin-top: 3rem;
+    
+}
+
+.container__primario{
+    width: 50%;
+}
+
+.container__secundario{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.cotainer__texto{
+    font-family: var(--fonte-text);
+    margin-top: 5rem;
+    text-align: justify;
 }

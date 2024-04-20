@@ -1,5 +1,9 @@
-const home = document.querySelector(".homeBT")
-const habilidades = document.querySelector(".habilidadesBT")
-const contato = document.querySelector(".contatoBT")
+const img = document.getElementById("gengar");
 
-console.log(habilidades)
+img.addEventListener("mouseenter", () => {
+    img.setAttribute("src", "./assets/gengar-move.gif");
+});
+
+img.addEventListener("mouseleave", () => {
+    img.setAttribute("src", "./assets/genga1.png");
+});
