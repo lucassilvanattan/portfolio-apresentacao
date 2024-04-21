@@ -5,5 +5,5 @@ img.addEventListener("mouseenter", () => {
 });
 
 img.addEventListener("mouseleave", () => {
-    img.setAttribute("src", "./assets/genga1.png");
+    img.setAttribute("src", "./assets/gengar.png");
 });

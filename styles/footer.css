@@ -1,0 +1,16 @@
+#venonat{
+    width: 2rem;
+}
+
+.rodape {
+    padding: 2rem 3rem 2rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__texto{
+    font-family: var(--fonte-text);
+    font-size: 2rem;
+
+}

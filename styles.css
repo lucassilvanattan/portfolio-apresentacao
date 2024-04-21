@@ -1,6 +1,10 @@
 @import url(reset.css);
 @import url(./styles/header.css);
-@import url(./styles/homecorpo.css);
+@import url(./styles/footer.css);
+@import url(./styles/first-body.css);
+@import url(./styles/second-body.css);
+@import url(./styles/third-body.css);
+
 @font-face {
     font-family: "pokemon solid";
     src: url(./fonts/Pokemon\ Solid.ttf) format("TrueType");
