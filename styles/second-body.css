@@ -1,0 +1,18 @@
+.container2{
+    padding: 4rem 6rem 4rem 6rem;
+}
+
+.card{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px 7px black;
+    margin: 3rem 4rem;
+}
+
+.container2__filho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

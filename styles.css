@@ -29,6 +29,7 @@
     --fonte-titulo: "pokemon solid", "sans-serif";
     --fonte-text: "fire", "sans-serif";
     --fundo-corpo: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgba(27,13,48,1) 37%, rgba(92,19,174,1) 100%);
+    --background-button: #450DE0;
 }
 
 body{
