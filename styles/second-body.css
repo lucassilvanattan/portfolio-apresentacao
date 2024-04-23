@@ -2,32 +2,42 @@
     padding: 2rem;
 }
 
+.titulo__habilidades{
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+}
+
 .card{
     display: flex;
-    flex: row;
-    width: 400px;
+    flex-direction: row;
+    width: 500px;
     height: 250px;
-    box-shadow: 4px 4px 7px 7px black;
-    margin: 3rem 4rem;
+    margin: 3rem 2rem;
+    border-radius: 10px; 
+    transition: all ease 1000ms; 
+    border: 4px solid var(--background-button);  
 }
 
-.cagua{
-    box-shadow: 3px 3px 3px 7px  rgba(24,10,222,1);
-
-}
-
-.cterrestre{
-    box-shadow: 3px 3px 3px 7px rgba(131,35,3,1);
-
-}
-
-.celetrico{
-    box-shadow: 3px 3px 3px 7px  rgba(217,222,10,1);
+.cagua:hover{
+    box-shadow: 3px 3px 4px 5px  rgba(24,10,222,1);
+    border: none;
 
 }
 
-.cfogo{
-    box-shadow: 3px 3px 3px 7px  rgba(222,10,10,1);
+.cterrestre:hover{
+    box-shadow: 3px 3px 4px 5px rgba(131,35,3,1);
+    border: none;
+
+}
+
+.celetrico:hover{
+    box-shadow: 3px 3px 4px 5px  rgba(217,222,10,1);
+        border: none;
+}
+
+.cfogo:hover{
+    box-shadow: 3px 3px 4px 5px  rgba(222,10,10,1);
+    border: none;
 
 }
 
@@ -35,14 +45,25 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 .container2__qualificacoes{
     width: 45%;
     height: 100%;
+    border-radius: 9px 0 0 9px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
 }
 
 .imagem__habilidades {
     width: 7rem;
+}
+
+.imagem__tipagens{
+    width: 2rem;
+    margin-top: 0.1rem;
+
 }
 
 .container__tipagem{
@@ -51,14 +72,16 @@
     align-items: center;
     width: 55%;
     height: 100%;
+    border-radius: 0 9px 9px 0;
 }
+
 
 .agua {
     background-image: linear-gradient(90deg, rgba(7,183,184,1) 0%, rgba(24,10,222,1) 100%);
 }
 
 .terrestre{
-    background-image:   linear-gradient(90deg, rgba(191,57,3,1) 0%, rgba(131,35,3,1) 100%);
+    background-image: linear-gradient(90deg, rgba(191,57,3,1) 0%, rgba(131,35,3,1) 100%);
 
 
 }
@@ -73,6 +96,26 @@
 }
 
 .container2__qualificacoes{
-    background-color: white;
+    background-color: whitesmoke;
+}
+
+.card:hover {
+    scale: 1.2;
+}
+
+.textoagua {
+    color: blue;
+}
+
+.textoterrestre{
+    color: orange;
+}
+
+.textofogo{
+    color: red;
+}
+
+.textoeletrico{
+    color: yellow;;
 }
 
