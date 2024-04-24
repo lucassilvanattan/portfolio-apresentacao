@@ -1,5 +1,10 @@
 .container2{
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    ;
 }
 
 .titulo__habilidades{
@@ -9,20 +14,98 @@
 
 .card{
     display: flex;
-    flex-direction: row;
-    width: 500px;
+    background-image: var(--fundo-corpo);
+    width: 250px;
     height: 250px;
     margin: 3rem 2rem;
-    border-radius: 10px; 
+    border-radius: 50%;
+    overflow: hidden; 
     transition: all ease 1000ms; 
-    border: 4px solid var(--background-button);  
+    border: 4px solid var(--background-button); 
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.imagem__tipo {
+    width: 6rem;
+}
+
+.card:hover .imagem__tipo{
+    display: none;
+}
+
+.card:hover {
+    border-radius: 10px;
+    width: 550px;
+    height: 275px;
+    flex-direction: row;
+}
+
+/* background dos cards */
+
+.cagua:hover .container2__qualificacoes{
+    background-image:  linear-gradient(90deg, rgba(7,183,184,1) 0%, rgba(16,76,203,1) 100%);
+}
+
+.cagua:hover .container__tipagem{
+    background-image:  linear-gradient(90deg, rgba(16,76,203,1) 0%, rgba(24,10,222,1) 100%);
+}
+
+.cfogo:hover .container2__qualificacoes{
+    background-image: linear-gradient(90deg, rgba(184,105,7,1) 0%, rgba(203,57,9,1) 100%);
+}
+
+.cfogo:hover .container__tipagem{
+    background-image: linear-gradient(90deg, rgba(203,57,9,1) 0%, rgba(222,10,10,1) 100%);
+}
+
+.cterrestre:hover .container2__qualificacoes{
+    background-image: linear-gradient(90deg, rgba(191,57,3,1) 0%, rgba(162,46,3,1) 100%);
+}
+
+.cterrestre:hover .container__tipagem{
+    background-image: linear-gradient(90deg, rgba(162,46,3,1) 0%, rgba(131,35,3,1) 100%);
+}
+
+.celetrico:hover .container2__qualificacoes{
+    background-image: linear-gradient(90deg, rgba(184,146,7,1) 0%, rgba(200,182,8,1) 100%);
+
+}
+
+.celetrico:hover .container__tipagem{
+    background-image: linear-gradient(90deg,rgba(200,182,8,1) 0%, rgba(217,222,10,1) 100%);
+
+}
+
+.card:hover .container2__qualificacoes{
+    display: block;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.card:hover .lista__de__qualificacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card:hover .container__tipagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cagua:hover{
-    box-shadow: 3px 3px 4px 5px  rgba(24,10,222,1);
-    border: none;
+    /* box-shadow: 3px 3px 4px 5px  rgba(24,10,222,1); */
+    /* border: none; */
 
 }
+
+
 
 .cterrestre:hover{
     box-shadow: 3px 3px 4px 5px rgba(131,35,3,1);
@@ -50,10 +133,8 @@
 .container2__qualificacoes{
     width: 45%;
     height: 100%;
-    border-radius: 9px 0 0 9px;
-    display: flex; 
-    align-items: center;
-    flex-direction: column;
+    /* border-radius: 9px 0 0 9px; */
+    display: none;
 }
 
 .imagem__habilidades {
@@ -62,17 +143,15 @@
 
 .imagem__tipagens{
     width: 2rem;
-    margin-top: 0.1rem;
+    margin-top: 0.5rem;
 
 }
 
 .container__tipagem{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 55%;
     height: 100%;
-    border-radius: 0 9px 9px 0;
+    /* border-radius: 0 9px 9px 0; */
+    display: none;
 }
 
 
@@ -96,26 +175,30 @@
 }
 
 .container2__qualificacoes{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 }
 
 .card:hover {
     scale: 1.2;
 }
 
-.textoagua {
-    color: blue;
+.qualificacoes__item{
+    line-height: 1.3rem;
 }
 
-.textoterrestre{
-    color: orange;
+.textoagua{
+    margin: 0.5rem 0 0.5rem 0;
 }
 
-.textofogo{
-    color: red;
-}
 
-.textoeletrico{
-    color: yellow;;
+
+.lista__de__qualificacoes{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: var(--fonte-text);
+    font-size: 0.71rem;
+    
 }
 
