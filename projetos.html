@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas | Projetos</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,14 +19,109 @@
         </nav>
     </header>
 
-    <section class="container3">
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Projetos</h2>
+        <div class="carrossel__container">
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <div class="card__swiper">
+                    <div class="apresentacao__projetos">
+                        <div>
+                        <ul class="fotos__first__mobile">
+                            <li class="mobile__first__lista__foto">
+                                <h2>Mobile</h2>
+                            <img src="./assets/mobile-style.png" alt="mobile style" class="mobile__first">
+                            </li>
+                        </div>
+                        <li class="mobile__first__lista__foto">
+                            <h2>Tablet</h2>
+                            <img src="./assets/tablet-style.png" alt="tablet style" class="tablet__first">
+                        </li>
+                        <li class="mobile__first__lista__foto">
+                            <h2>Computador</h2>
+                            <img src="./assets/pc-style..png" alt="pc style" class="pc__first">
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="apresentacao__texto"> 
+                        <h1>nsabduibasudbasuibdiuasbd</h1>
 
-    </section>
+                    </div>
+                </div>
+            </div>
+                <div class="swiper-slide">
+                    <div class="card__swiper">
+                    <div class="apresentacao__projetos">
+
+                    </div>
+                    <div class="apresentacao__texto"> 
+
+                    </div>
+
+                    
+                </div>
+            </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                    <div class="apresentacao__projetos">
+
+                    </div>
+                    <div class="apresentacao__texto"> 
+
+                    </div>
+
+                </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                    <div class="apresentacao__projetos">
+
+                    </div>
+                    <div class="apresentacao__texto"> 
+
+                    </div>
+
+                </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide">
+                    <div class="apresentacao__projetos">
+
+                    </div>
+                    <div class="apresentacao__texto"> 
+
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+    
 
     <footer class="rodape">
         <h2 class="footer__texto">Developed By Lucas</h2>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+
+        });
+
+    </script>
     
 </body>
 </html>

@@ -37,3 +37,6 @@ body{
     background-image: var(--fundo-corpo);
 }
 
+.swiper-pagination-bullet-active {
+    background: purple;
+}
