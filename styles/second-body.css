@@ -3,8 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
-    ;
+    align-items: center;
 }
 
 .titulo__habilidades{
@@ -15,15 +14,16 @@
 .card{
     display: flex;
     background-image: var(--fundo-corpo);
-    width: 250px;
-    height: 250px;
-    margin: 3rem 2rem;
+    width: 200px;
+    height: 200px;
+    margin: 3rem 3rem;
     border-radius: 50%;
     overflow: hidden; 
     transition: all ease 1000ms; 
     border: 4px solid var(--background-button); 
     justify-content: center;
     align-items: center; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 
@@ -82,6 +82,7 @@
 .card:hover .container2__qualificacoes{
     display: block;
     display: flex; 
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -90,6 +91,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
 
 }
 
@@ -193,12 +195,13 @@
 
 
 .lista__de__qualificacoes{
-    padding: 1rem;
+    padding: 0.8rem;
     display: flex;
     flex-direction: column;
     text-align: justify;
     font-family: var(--fonte-text);
-    font-size: 0.71rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
     
 }
 
