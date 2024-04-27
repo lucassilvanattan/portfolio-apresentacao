@@ -1,7 +1,7 @@
 .carrossel {
     font-family: var(--fonte-principal);
     padding: 2rem 4rem 4rem 4rem;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 .carrossel__titulo {
@@ -15,15 +15,13 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-    /* display: none; */
+    display: none;
 }
 
-.carrossel__container{
-    padding: 2rem;
-}
 
-.carrosel__container {
-    padding: 10rem;
+
+.container__carrossel {
+    padding: 2rem 5rem 6rem 5rem;
 }
 
 .swiper-pagination {
@@ -38,54 +36,45 @@
     transition: all ease 1000ms;
 }
 
-.card__swiper{
-    width: 100%;
-    height: 100%;
-    transition: all ease 1s;
-}
 
 .swiper{
-    padding: 2rem;
+    padding: 0 6rem 2rem 6rem;
 }
 
-
-
-.mobile__first {
-    height: 20rem;
-}
-
-.tablet__first {
-    height: 20rem;
-}
-
-.pc__first{
-    height: 20rem;
-}
-
-.apresentacao__texto {
-    transition: all ease 1000ms;
-    display: none;
-} 
-
-.fotos__first__mobile{
+.container__projetos{
+    min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
 }
 
-.mobile__first__lista__foto{
-    margin: 0 1rem;
+
+.imagem__projetos{
+    width: 40%;
 }
 
-.titulo__mobile__first{
+.swiper-pagination{
+    padding: 5rem;
+}
+.titulo__projeto {
+    color: #00B9F2;
+    margin: 1rem 0 1rem 0;
+    font-size: 2rem;
+}
+
+
+.descricao__projeto{
+    width: 80%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--fonte-text);
-    margin-bottom: 0.5rem;
+    flex-direction: column;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    border-top: 2px solid #00B9F2;
 }
 
+.titulo__psiquico{
+    border-top: 2px solid #8B5A9B;
+}
 
 
 

@@ -21,87 +21,37 @@
 
     <section class="carrossel">
         <h2 class="carrossel__titulo">Projetos</h2>
-        <div class="carrossel__container">
+        <div class="container__carrossel">
         <div class="swiper">
             <div class="swiper-pagination"></div>
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                <div class="card__swiper">
-                    <div class="apresentacao__projetos">
-                        <div>
-                        <ul class="fotos__first__mobile">
-                            <li class="mobile__first__lista__foto">
-                                <h2 class="titulo__mobile__first">Mobile</h2>
-                            <img src="./assets/mobile-style.png" alt="mobile style" class="mobile__first">
-                            </li>
-                        </div>
-                        <li class="mobile__first__lista__foto">
-                            <h2 class="titulo__mobile__first">Tablet</h2>
-                            <img src="./assets/tablet-style.png" alt="tablet style" class="tablet__first">
-                        </li>
-                        <li class="mobile__first__lista__foto">
-                            <h2 class="titulo__mobile__first">Computador</h2>
-                            <img src="./assets/pc-style..png" alt="pc style" class="pc__first">
-                        </li>
-                        </ul>
+                    <div class="container__projetos" id="projeto__agua">
+                        <img src="./assets/agua-projeto.svg" alt="projeto mobile first" class="imagem__projetos ">
                     </div>
-                    <div class="apresentacao__texto"> 
-                        <h1>nsabduibasudbasuibdiuasbd</h1>
-
-                    </div>
-                </div>
-            </div>
-                <div class="swiper-slide">
-                    <div class="card__swiper">
-                    <div class="apresentacao__projetos">
-
-                    </div>
-                    <div class="apresentacao__texto"> 
-
-                    </div>
-
-                    
-                </div>
-            </div>
-                <div class="swiper-slide">
-                    <div class="swiper-slide">
-                    <div class="apresentacao__projetos">
-
-                    </div>
-                    <div class="apresentacao__texto"> 
-
-                    </div>
-
-                </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="swiper-slide">
-                    <div class="apresentacao__projetos">
-
+                    <div class="container__projetos" id="projeto__psiquico">
+                    <img src="./assets/psiquico-projeto.svg" alt="primeiro projeto" class="imagem__projetos">
                     </div>
-                    <div class="apresentacao__texto"> 
-
-                    </div>
-
                 </div>
-                </div>
+            
                 <div class="swiper-slide">
-                    <div class="swiper-slide">
-                    <div class="apresentacao__projetos">
-
-                    </div>
-                    <div class="apresentacao__texto"> 
-
-                    </div>
-
+                    <div class="container__projetos" id="projeto__grama">
+                    <img src="./assets/grama-projeto.svg" alt="projeto gengar atravessando a rua" class="imagem__projetos ">
                     </div>
                 </div>
-            </div>
+            
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
             <div class="swiper-scrollbar"></div>
+            </div>
         </div>
-    </div>
+        <div class="descricao__projeto agua__desc">
+            <h2 class="titulo__projeto titulo__agua">Mobile First</h2>
+            <p class="texto__projeto">Nós como proramadores, temos que deixar o projeto responsivo para que ele possa ser aberto e coeso em diferentes telas, normalmente, o projeto é feito na versão de computador e posteriormente feito a responsividade seja pra mobile ou tablet, no Mobile First este processo é feito ao contrário, primeiro é feito a versão mobile e assim adiante.</p>
+        </div>
+    </section>
     
 
     <footer class="rodape">
@@ -111,7 +61,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
+            spaceBetween: 5,
             slidesPerView: 1,
             pagination: {
                 el: '.swiper-pagination',
@@ -121,5 +71,7 @@
         });
 
     </script>
+    <script src="main.js"></script>
+    
 </body>
 </html>
