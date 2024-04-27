@@ -18,6 +18,10 @@
     /* display: none; */
 }
 
+.carrossel__container{
+    padding: 2rem;
+}
+
 .carrosel__container {
     padding: 10rem;
 }
