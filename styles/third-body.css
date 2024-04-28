@@ -21,24 +21,23 @@
 
 
 .container__carrossel {
-    padding: 2rem 5rem 6rem 5rem;
+    padding: 1rem 5rem 6rem 5rem;
 }
 
 .swiper-pagination {
     position: initial;
-    margin: 0.5em 0;
+    /* margin: 0; */
 }
 
 .apresentacao__projetos {
     display: flex;
     width: 100%;
     height: 100%;
-    transition: all ease 1000ms;
 }
 
 
 .swiper{
-    padding: 0 6rem 2rem 6rem;
+    padding: 0 6rem 1rem 6rem;
 }
 
 .container__projetos{
@@ -50,14 +49,13 @@
 
 
 .imagem__projetos{
-    width: 40%;
+    width: 35%;
 }
 
 .swiper-pagination{
-    padding: 5rem;
+    padding: 3rem;
 }
 .titulo__projeto {
-    color: #00B9F2;
     margin: 1rem 0 1rem 0;
     font-size: 2rem;
 }
@@ -69,11 +67,28 @@
     flex-direction: column;
     padding-top: 1rem;
     font-size: 1.5rem;
+}
+
+.titulo__agua{
+    color: #00B9F2;
+}
+.titulo__psiquico{
+    color: #8B5A9B;
+}
+.titulo__grama{
+    color: #00B44E;
+}
+
+.agua__desc {
     border-top: 2px solid #00B9F2;
 }
 
-.titulo__psiquico{
+.psiquico__desc {
     border-top: 2px solid #8B5A9B;
+}
+
+.grama__desc {
+    border-top: 2px solid #00B44E;
 }
 
 
