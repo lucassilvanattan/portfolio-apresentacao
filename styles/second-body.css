@@ -205,3 +205,32 @@
     
 }
 
+@media screen and (max-width: 400px) {
+
+    .card:hover {
+        border-radius: 10px;
+        height: 550px;
+        width: 275px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2__qualificacoes{
+        height: 45%;
+        width: 100%;
+        /* border-radius: 9px 0 0 9px; */
+        display: none;
+    }
+    .container__tipagem{
+        height: 55%;
+        width: 100%;
+        /* border-radius: 0 9px 9px 0; */
+        display: none;
+    }
+    .container2__filho{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
