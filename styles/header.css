@@ -30,7 +30,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
     .cabecalho {
         width: 50vw;
     }
@@ -38,7 +38,7 @@
         padding: 0.5rem 2rem 0.2rem 2rem;
     }
     .cabecalho__ancora{
-        margin: 0.2rem 1rem;
+        margin: 0.2rem 0.5rem;
         padding-bottom: 0.5rem;
     }
     .active{
