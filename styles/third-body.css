@@ -62,11 +62,12 @@
 
 
 .descricao__projeto{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 1rem;
     font-size: 1.5rem;
+    align-items: center;
 }
 
 .titulo__agua{
@@ -89,6 +90,25 @@
 
 .grama__desc {
     border-top: 2px solid #00B44E;
+}
+
+@media screen and (max-width: 700px) {
+    .carrossel {
+        padding: 0;
+    }
+    .container__carrossel{
+        padding: 0;
+    }
+    .swiper{
+        padding: 0;
+    }
+    .imagem__projetos{
+        width: 80%
+    }
+    .descricao__projeto{
+        width: 100%;
+        padding: 2rem;
+    }
 }
 
 
