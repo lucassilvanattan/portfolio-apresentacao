@@ -14,7 +14,7 @@ imagemProjetoPsiquico.addEventListener("mouseenter", () => {
     mudaBorda.classList.add("psiquico__desc")
 
     nomeDoProjeto.textContent = "Primeiro Portfólio"
-    textoDescritivo.textContent = "Este foi o primeiro portofólio que eu fiz do zero, sem nenhuma ajuda. Nele, parar ser diferente, decidi fazer uma animação que consiste em corações em diferentes posições subindo infinitamente"
+    textoDescritivo.textContent = "Este portfólio, foi  feito com objetivo de treinar algumas propriedades Keyframes, ou seja, algumas animações básicas."
     
     
 });
@@ -28,7 +28,7 @@ imagemProjetoGrama.addEventListener("mouseenter", () => {
     mudaBorda.classList.add("grama__desc")
 
     nomeDoProjeto.textContent = "Game Atravessa A Rua"
-    textoDescritivo.textContent = "Neste game você deve atravessar a rua sem bater nos pokemmons que ali estão passando, cada vez que você conseguir atravessar, você ganha 1 ponto"
+    textoDescritivo.textContent = "Neste projeto, pega-se de base um jogo chamado Crosy Road, um jogo antigo onde o objetivo era fazer com que uma galinha atravessasse uma avenida repleta de carros em diferenntes velocidades. Este jogo tem a mesma ideia, porém com uma temática diferente."
     
     
 });

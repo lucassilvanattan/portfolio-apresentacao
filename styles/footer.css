@@ -3,7 +3,7 @@
 }
 
 .rodape {
-    padding: 5rem 3rem 2rem 3rem;
+    padding: 2rem 3rem 2rem 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,4 +13,14 @@
     font-family: var(--fonte-text);
     font-size: 2rem;
 
+}
+
+@media  screen and (max-width: 700px) {
+    .footer__texto{
+        font-size: 1.3rem;
+    }
+    .rodape{
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    
 }

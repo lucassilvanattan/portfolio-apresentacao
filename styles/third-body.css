@@ -58,6 +58,7 @@
 .titulo__projeto {
     margin: 1rem 0 1rem 0;
     font-size: 2rem;
+    font-family: var(--fonte-text);
 }
 
 
@@ -68,7 +69,9 @@
     padding-top: 1rem;
     font-size: 1.5rem;
     align-items: center;
+    font-family: var(--fonte-text);
 }
+
 
 .titulo__agua{
     color: #00B9F2;
@@ -108,6 +111,10 @@
     .descricao__projeto{
         width: 100%;
         padding: 2rem;
+    }
+    .texto__projeto{
+        line-height: 1.5rem;
+        font-size: 1rem;
     }
 }
 
