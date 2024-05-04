@@ -94,6 +94,32 @@
 .grama__desc {
     border-top: 2px solid #00B44E;
 }
+.container__link__projeto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.link__projeto{
+    padding: 2rem;
+    border-radius: 8px;
+    font-family: var(--fonte-text);
+    font-size: 1.2em;
+}
+
+.water{
+    background-color: #00B9F2;
+}
+
+.grass{
+    background-color: #00B44E;
+
+}
+
+.psic{
+    background-color: #8B5A9B;
+}
 
 @media screen and (max-width: 700px) {
     .carrossel {
@@ -115,6 +141,13 @@
     .texto__projeto{
         line-height: 1.5rem;
         font-size: 1rem;
+    }
+    .link__projeto {
+            padding: 2rem 1rem;
+            border-radius: 8px;
+            font-family: var(--fonte-text);
+            font-size: 1.2rem;
+        
     }
 }
 
