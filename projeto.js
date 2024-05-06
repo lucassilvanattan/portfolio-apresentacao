@@ -20,6 +20,7 @@ imagemProjetoPsiquico.addEventListener("mouseenter", () => {
 
 
     nomeDoProjeto.textContent = "Primeiro Portfólio"
+    
     textoDescritivo.textContent = "Este portfólio, foi  feito com objetivo de treinar algumas propriedades Keyframes, ou seja, algumas animações básicas."
     
     
@@ -37,7 +38,7 @@ imagemProjetoGrama.addEventListener("mouseenter", () => {
     ancora.classList.remove("water")
     ancora.setAttribute("href", "https://game-atravessar-a-rua.vercel.app")
 
-    nomeDoProjeto.textContent = "Game Atravessa A Rua"
+    nomeDoProjeto.textContent = "Game Atravessar A Rua"
     textoDescritivo.textContent = "Neste projeto, pega-se de base um jogo chamado Crosy Road, um jogo antigo onde o objetivo era fazer com que uma galinha atravessasse uma avenida repleta de carros em diferenntes velocidades. Este jogo tem a mesma ideia, porém com uma temática diferente."
     
     
@@ -52,6 +53,7 @@ imagemProjetoagua.addEventListener("mouseenter", () => {
     mudaBorda.classList.add("agua__desc")
     ancora.classList.remove("psic")
     ancora.classList.remove("grass")
+    ancora.classList.remove("water")
     ancora.classList.add("water")
     ancora.setAttribute("href", "https://mobile-first-gules.vercel.app")
 
