@@ -1,11 +1,9 @@
-#venonat{
-    width: 2rem;
-}
 
 .rodape {
     padding: 4rem 3rem 1rem 3rem;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -15,12 +13,38 @@
 
 }
 
+.imagem__contato{
+    width: 2rem;
+    margin-right: 0.5rem
+}
+
+.email{
+    text-decoration: none;
+    font-family: var(--fonte-text);
+    transition: all ease .5s;
+    border-radius: 10px;
+}
+
+.email:hover {
+    box-shadow: 0px 0px 6px 5px var(--background-button);
+    scale: 1.1;
+}
+.email{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media  screen and (max-width: 700px) {
     .footer__texto{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .rodape{
         padding: 2rem 1rem 2rem 1rem;
+    }
+    .email{
+        font-size: 1rem;
     }
     
 }

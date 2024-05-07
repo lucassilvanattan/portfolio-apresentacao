@@ -4,6 +4,7 @@
 @import url(./styles/first-body.css);
 @import url(./styles/second-body.css);
 @import url(./styles/third-body.css);
+@import url(./assets/logo-github.svg);
 
 @font-face {
     font-family: "pokemon solid";
